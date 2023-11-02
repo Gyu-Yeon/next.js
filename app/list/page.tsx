@@ -31,7 +31,7 @@ export default function List() {
       {product.map((item, i) => {
         return (
           <div className="food" key={i}>
-            <img src={`/food${i}.png`} className="food-img" />
+            <img src={`/food${i}.png`} className="food-img" alt="food" />
             <h4>{item} $40</h4>
             <span> {count[i]} </span>
             <button
